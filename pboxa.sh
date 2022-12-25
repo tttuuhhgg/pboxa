@@ -13,7 +13,7 @@ rm -rf /tmp/*
 cp  /root/pboxa/etc/supervisord.conf /etc
 cp /root/pboxa/etc/nginx/default1.conf /etc/nginx
 mkdir /etc/pboxa
-cp /root/pboxa/etc/tmal/cf /etc/pboxa/cf
+cp /root/pboxa/etc/pboxa/cf /etc/pboxa/cf
 cp /root/pboxa/index.html /workspace/index.html
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 echo "Asia/Shanghai" > /etc/timezone
