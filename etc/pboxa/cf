@@ -38,8 +38,8 @@
 					"maxVersion": "1.3",
 					"certificates": [
 						{
-                        "certificateFile": "/root/fullchain1.pem",
-                        "keyFile": "/root/privkey1.pem"
+                        "certificateFile": "/root/fullchain.pem",
+                        "keyFile": "/root/privkey.pem"
 						}
 					]
 				},
