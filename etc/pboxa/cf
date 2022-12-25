@@ -30,7 +30,19 @@
             },
             "streamSettings": {
                 "network": "ws",
-                "security": "none",
+                "security": "tls",
+					"rejectUnknownSni": false,
+					"allowInsecure": true,
+					"alpn": ["h2", "http/1.1"],
+					"minVersion": "1.2",
+					"maxVersion": "1.3",
+					"certificates": [
+						{
+                        "certificateFile": "/root/fullchain1.pem",
+                        "keyFile": "/root/privkey1.pem"
+						}
+					]
+				},
                 "wsSettings": {
                     "path": "/sql"
                 }
